@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dreams/Aim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="banner">
+        <div class="container">
+            <div id="scene">
+                <div class="layer"><img src="images/sun.png" alt=""></div>
+                <div class="layer"data-depth="0.25"><img src="images/mountains.png" alt=""></div>
+                <div class="layer"data-depth="-0.5"><img src="images/birds.png" alt=""></div>
+                <div class="layer"data-depth-y="0.15"><img src="images/cloud_left.png" alt=""></div>
+                <div class="layer"data-depth-y="-0.15"><img src="images/cloud_right.png" alt=""></div>
+                <div class="layer"data-depth-y="0.5"><img src="images/snow.png" alt=""></div>
+                <div class="layer"data-depth="0.5"><img src="images/text.png" alt=""></div>
+                <div class="layer"data-depth="-0.1"><img src="images/wave5.png" alt=""></div>
+                <div class="layer"data-depth="-0.35"><img src="images/boat3.png" alt=""></div>
+                <div class="layer"data-depth="-0.4"><img src="images/wave4.png" alt=""></div>
+                <div class="layer"data-depth="-0.5"><img src="images/boat2.png" alt=""></div>
+                <div class="layer"data-depth="-0.15"><img src="images/wave3.png" alt=""></div>
+                <div class="layer"data-depth="-0.5"><img src="images/wave2.png" alt=""></div>
+                <div class="layer"data-depth-x="-0.5"><img src="images/boat1.png" alt=""></div>
+                <div class="layer"data-depth-x="-0.25"><img src="images/wave1.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script>
+        var scene = document.getElementById('scene');
+        var parallaxInstance = new Parallax(scene);
+    </script>
+</body>
+</html>
